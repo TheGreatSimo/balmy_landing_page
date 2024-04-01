@@ -1,8 +1,10 @@
-import Hero from "./Hero";
+import Header from "./Header";
 import Announcement from "./Announcement";
+import Hero from "./Hero";
 
 
 export {
-    Hero,
     Announcement,
+    Header,  
+    Hero
 }

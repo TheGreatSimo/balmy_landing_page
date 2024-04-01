@@ -1,14 +1,13 @@
-import { Hero } from "@/components";
-import { Announcement } from "@/components";
-
+import { Announcement , Header , Hero } from "@/components";
 
 export default function Home() {
   return (
-    <main>
-      <headr>
+    <main className="w-full">
+      <header>
         <Announcement />
-      </headr>
+      </header>
 
+      <Header headline={"Introduce Your Child to the World of Music"} subheadline={"Unlock Their Potential with Our Tongue Drum"} /> 
       <Hero />
 
     </main>
