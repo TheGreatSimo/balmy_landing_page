@@ -3,16 +3,18 @@ const VideoPlayer = () => {
 
   return (
     <div className="flex justify-center items-center mt-20 max-container">
-      <div className="aspect-w-16 aspect-h-9 max-w-[800px] w-full">
+      <div className="max-md:h-[250px] max-xl:h-[400px] h-[640px]  w-[80%] max-lg:w-[99%] shadow-2xl">
         <iframe
-          className="w-full h-full"
-          src={videoUrl}
-          title="Introduce Your Child to the World of Music. Unlock Their Potential with Our Tongue Drum"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          width="100%"
+          height="100%"
+          controls
+          autoPlay
+          muted
           allowFullScreen
+          src={videoUrl}
+          aria-label="Introduce Your Child to the World of Music. Unlock Their Potential with Our Tongue Drum"
         >
-          Your browser does not support embedded videos.
+          Your browser does not support the video tag.
         </iframe>
       </div>
     </div>
