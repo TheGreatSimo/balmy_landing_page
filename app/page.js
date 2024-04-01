@@ -1,5 +1,5 @@
 import { Hero } from "@/components";
-import { Announcement , Navbar } from "@/components";
+import { Announcement } from "@/components";
 
 
 export default function Home() {
@@ -7,7 +7,6 @@ export default function Home() {
     <main>
       <headr>
         <Announcement />
-        <Navbar />
       </headr>
 
       <Hero />
